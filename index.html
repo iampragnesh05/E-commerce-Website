@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="Styles/styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+
+    
+
+    <title>Shoe Store</title>
+  </head>
+
+  <body>
+    <section class="section" id="header-section">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+          <!-- Logo -->
+        <a class="navbar-brand" href="#">Shoe Store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse flex-row-reverse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="products.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section>
+        <div class="animated-text" id="header-body">
+          <span>Meet the new collection</span>
+        </div>
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="col-md-6 align-left img-block">
+              <div class="header-image">
+                <img src="Images/1-1920x1280 (1).jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6 header-info">
+              <h4 class="text-white text-uppercase header-info-text">
+                <strong>Lorem ipsum </strong> dolor sit amet consectetur
+              </h4>
+              <h1 class="text-white header-info-heading">
+                New sports collection already on sale
+              </h1>
+              <button type="button" class="btn btn-light btn-circle">
+                Start Shopping
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+     <section class="best-seller">
+      <div class="container">
+        <h1>Best Seller</h1>
+        <div class="row">
+          <div class="col-sm">
+            <img src="Images/1-1920x1280 (1).jpg" alt="..." class="img-thumbnail" data-toggle="modal" data-target="#modalBasket">
+            <figcaption class="figure-caption"><strong class="text-dark">Brown Glasses</strong></figcaption>
+            <figcaption class="figure-caption">RS 2500</figcaption>
+          </div>
+          <div class="col-sm">
+            <img src="Images/gallery07-1200x800-800x533.jpg" alt="..." class="img-thumbnail"  data-toggle="modal" data-target="#modalBasket1">
+            <figcaption class="figure-caption"><strong class="text-dark">Men's Shoes</strong></figcaption>
+            <figcaption class="figure-caption">RS 2500</figcaption>
+          </div>
+          <div class="col-sm">
+            <img src="Images/gallery06-1200x800-800x533.jpg" alt="..." class="img-thumbnail"  data-toggle="modal" data-target="#modalBasket2">
+            <figcaption class="figure-caption"><strong class="text-dark">Blue Blackpack</strong></figcaption>
+            <figcaption class="figure-caption"> <s>RS 2500</s> RS 2000</figcaption>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!--Section: Block Content-->
+<section>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalBasket" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header py-4">
+          <h5 class="mb-0">You have added an item to the basket</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3 pt-4 pb-0">
+          <div class="media mb-3">
+            <img class="d-flex z-depth-1 rounded mr-3" width="64px"
+              src="Images/collection1.png" alt="Sample">
+            <div class="media-body">
+              <h5>Brown Glasses</h5>
+              <p class="mb-0"><span><strong>$12.99</strong></span></p class="mb-0">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <a href="#!" type="button" class="card-link-secondary small text-uppercase">Continue shopping</a>
+            <button type="button" class="btn btn-primary">Go to cart</button>
+          </div>
+          <hr>
+          <h5 class="my-4">The seller recommends for this product:</h5>
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/women1.png"
+                    alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/featured1.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span><strong>$12.99</strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/featured2.png"
+                    alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/featured3.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes </h5>
+                  <p><span><strong>$12.99</strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/women2.png"
+                    alt="Sample">
+                  <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/new2.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span class="text-danger mr-1"><strong>$12.99</strong></span><span
+                      class="text-grey"><strong><s>$36.99</s></strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/new3.png"
+                    alt="Sample">
+                  <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/new4.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span class="text-danger mr-1"><strong>$12.99</strong></span><span
+                      class="text-grey"><strong><s>$36.99</s></strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+        </div>
+        <div class="modal-footer d-flex justify-content-center py-4">
+          <a href="#!" type="button" class="card-link-secondary small text-uppercase">More from this
+            seller</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalBasket1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header py-4">
+          <h5 class="mb-0">You have added an item to the basket</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3 pt-4 pb-0">
+          <div class="media mb-3">
+            <img class="d-flex z-depth-1 rounded mr-3" width="64px"
+              src="Images/collection2.png" alt="Sample">
+            <div class="media-body">
+              <h5>Men's Shoes</h5>
+              <p class="mb-0"><span><strong>$12.99</strong></span></p class="mb-0">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <a href="#!" type="button" class="card-link-secondary small text-uppercase">Continue shopping</a>
+            <button type="button" class="btn btn-primary">Go to cart</button>
+          </div>
+          <hr>
+          <h5 class="my-4">The seller recommends for this product:</h5>
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/women1.png"
+                    alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/featured1.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span><strong>$12.99</strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/featured2.png"
+                    alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/featured3.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span><strong>$12.99</strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/women2.png"
+                    alt="Sample">
+                  <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/new2.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span class="text-danger mr-1"><strong>$12.99</strong></span><span
+                      class="text-grey"><strong><s>$36.99</s></strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/new3.png"
+                    alt="Sample">
+                  <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/new4.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span class="text-danger mr-1"><strong>$12.99</strong></span><span
+                      class="text-grey"><strong><s>$36.99</s></strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+        </div>
+        <div class="modal-footer d-flex justify-content-center py-4">
+          <a href="#!" type="button" class="card-link-secondary small text-uppercase">More from this
+            seller</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section>
+
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalBasket2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header py-4">
+          <h5 class="mb-0">You have added an item to the basket</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3 pt-4 pb-0">
+          <div class="media mb-3">
+            <img class="d-flex z-depth-1 rounded mr-3" width="64px"
+              src="Images/offert.png" alt="Sample">
+            <div class="media-body">
+              <h5>Men's Shoes</h5>
+              <p class="mb-0"><span><strong>$12.99</strong></span></p class="mb-0">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <a href="#!" type="button" class="card-link-secondary small text-uppercase">Continue shopping</a>
+            <button type="button" class="btn btn-primary">Go to cart</button>
+          </div>
+          <hr>
+          <h5 class="my-4">The seller recommends for this product:</h5>
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/women1.png"
+                    alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/featured1.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span><strong>$12.99</strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/featured2.png"
+                    alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/featured3.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span><strong>$12.99</strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/women2.png"
+                    alt="Sample">
+                  <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/new2.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span class="text-danger mr-1"><strong>$12.99</strong></span><span
+                      class="text-grey"><strong><s>$36.99</s></strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-3 mb-4">
+
+              <!-- Card -->
+              <div class="">
+
+                <div class="view zoom overlay z-depth-2 rounded">
+                  <img class="img-fluid w-100"
+                    src="Images/new3.png"
+                    alt="Sample">
+                  <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100"
+                        src="Images/new4.png">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="pt-4">
+
+                  <h5>Men's Shoes</h5>
+                  <p><span class="text-danger mr-1"><strong>$12.99</strong></span><span
+                      class="text-grey"><strong><s>$36.99</s></strong></span></p>
+                  <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                      class="fas fa-shopping-cart pr-2"></i>Add
+                    to cart</button>
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+        </div>
+        <div class="modal-footer d-flex justify-content-center py-4">
+          <a href="#!" type="button" class="card-link-secondary small text-uppercase">More from this
+            seller</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+   
+
+<section class="sec-section">
+  <div class="body-section">
+
+  </div>
+  <div class="container body-section-info">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h1 class="body-section-info-heading">
+          If you buy shoes from the new collection, you automatically become a member of our raffle prizes
+        </h1>
+        <p class="body-section-info-p">
+          <strong>DON'T MISS YOUR CHANCE TO WIN!!!</strong>
+        </p>
+        <div class="play">
+          <i class="fas fa-play-circle play-icon hover-fx"></i>
+        </div>
+        <span class="body-section-info-span">
+          Watch video to learn more
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="new-collection">
+  <div class="container">
+    <div class="row">
+      <div class="py-5">
+        <h3 class="font-weight-bold mb-2">NEW COLLECTIONS</h3>
+        <div class="row">
+          <!-- DEMO 1 Item-->
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <div class="hover hover-1 text-white rounded"><img src="Images/1-1920x1280 (1).jpg" alt="">
+              <div class="hover-overlay"></div>
+              <div class="hover-1-content px-5 py-4">
+                <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Sports </span>Collection</h3>
+                <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn1 ">See Collection</a>
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <div class="hover hover-1 text-white rounded"><img src="Images/revolt-164_6wVEHfI-unsplash.jpg" alt="">
+              <div class="hover-overlay"></div>
+              <div class="hover-1-content px-5 py-4">
+                <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Sports </span>Collection</h3>
+                <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn1 ">See Collection</a>
+    </div>
+  </div>
+</section>
+
+<section class="sale-time">
+  <div class="container">
+    <h1>If you buy two pairs of shoes, the third with 30% discount!!</h1>
+    <span>THE OFFER IS LIMITED. HURRY UP TO PURCHASE!</span>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm">
+          <h2 class="time days">00</h2>
+          <h2>Days</h2>
+        </div>
+        <div class="col-sm">
+          <h2 class="time hours">00</h2>
+      <h2>Hours</h2>
+        </div>
+        <div class="col-sm">
+          <h2 class="time minutes">00</h2>
+          <h2>Minutes</h2>
+        </div>
+        <div class="col-sm">
+          <h2 class="time seconds">00</h2>
+          <h2>Seconds</h2>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="size-chart">
+  <div class="size-chart-info">
+    <span>Use the table below to determine your size</span>
+    <h1><strong>Don't know your size?</strong></h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 mt-5">
+          <h2 class="title pb-3 display-2"> Men's Shoes
+          </h2>
+            <table class="table table-hover" id="tableWithBgImage">
+              <thead>
+                <tr>
+                  <th scope="col">CM</th>
+                  <th scope="col">23.5</th>
+                  <th scope="col">24.4</th>
+                  <th scope="col">25.4</th>
+                  <th scope="col">25</th>
+                  <th scope="col">27</th>
+                  <th scope="col">27.9</th>
+                  <th scope="col">28.6</th>
+                
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">EU</th>
+                  <td>39</td>
+                  <td>40</td>
+                  <td>41</td>
+                  <td>42</td>
+                  <td>43</td>
+                  <td>44</td>
+                  <td>45</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">UK</th>
+                  <td>5,5</td>
+                  <td>6,5</td>
+                  <td>7,5</td>
+                  <td>8,5</td>
+                  <td>9,5	</td>
+                  <td>10,5</td>
+                  <td>11,5</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">US</th>
+                  <td>6	</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  
+                </tr>
+              </tbody>
+            </table>
+           
+        </div>
+        <div class="col-12 col-md-12 mt-5">
+          <h2 class="title pb-3 display-2"> 
+            Women's shoes
+          </h2>
+            <table class="table table-hover" id="tableWithBgImage">
+              <thead>
+                <tr>
+                  <th scope="col">CM</th>
+                  <th scope="col">23,5</th>
+                  <th scope="col">24,4</th>
+                  <th scope="col">25.4</th>
+                  <th scope="col">25</th>
+                  <th scope="col">27</th>
+                  <th scope="col">27.9</th>
+                  <th scope="col">28.6</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">EU</th>
+                  <td>35</td>
+                  <td>36</td>
+                  <td>37</td>
+                  <td>38</td>
+                  <td>39</td>
+                  <td>40</td>
+                  <td>41</td>
+                </tr>
+                <tr>
+                  <th scope="row">UK</th>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <th scope="row">US</th>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+<section class="testimonial">
+  <div class="container">
+    <h2>Still in doubt? Come and our team will help You</h2>
+    <span>Lorem Ipsum Dolor Sit Amet</span>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+             <div class="mt-5">
+               <div class="hovereffect">
+                <img  class="img-wrap img-responsive" src="Images/face5.jpg" alt="">
+                <div class="overlay">
+                  <h2>Amanda Adams</h2>
+                  <p class="set1">
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                  </p>
+                  <hr>
+                  <hr>
+                  <p class="set2">
+                      <a href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                  </p>
+              </div> 
+              </div>
+               
+             </div>
+            </div>
+            <div class="col-sm">
+              <div class="mt-5">
+                <div class="hovereffect">
+                  <img class="img-wrap" src="Images/face6.jpg" alt="">
+                  <div class="overlay">
+                    <h2>John Smith</h2>
+                    <p class="set1">
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </p>
+                    <hr>
+                    <hr>
+                    <p class="set2">
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </p>
+                </div> 
+                </div>
+               
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="mt-5">
+                <div class="hovereffect">
+                  <img class="img-wrap" src="Images/face7.jpg" alt="">
+                  <div class="overlay">
+                    <h2>Amanda Adams</h2>
+                    <p class="set1">
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </p>
+                    <hr>
+                    <hr>
+                    <p class="set2">
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </p>
+                </div> 
+                </div>
+                
+              </div>
+            </div>
+             <div class="col-sm">
+              <div class="mt-5">
+                <div class="hovereffect">
+                  <img class="img-wrap" src="Images/face8.jpg" alt="">
+                  <div class="overlay">
+                    <h2>John Smith
+                    </h2>
+                    <p class="set1">
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </p>
+                    <hr>
+                    <hr>
+                    <p class="set2">
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </p>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</section>
+<section class="google-map">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>GET IN TOUCH WITH US AND WE CAN HELP YOU</h2>
+        <h1 class="display-4">
+          Come to us or ask a question right now
+        </h1>
+        <form>
+          <!-- Name input -->
+          <div class="form-outline mb-4 mt-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Email address</label>
+          </div>
+        
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+       <!--Google map-->
+    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14629.771462363684!2d74.4404453!3d23.552532799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1616593082512!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h2 class="footer-title text-white">
+                    Shoe Store
+                </h2>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-list text-white">
+                    <ul class="list">
+                        <li>Phone: +91-9116955257</li>
+                        <li>Email: iampragnesh05@gmail.com</li>
+                        <li>Adress: Udaipur, Rajasthan</li>
+                    </ul>
+                </div>
+                <div class="social-icon mb-0">
+                    <div class="soc-item">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="soc-item">
+                        <a href=""> <i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="soc-item">
+                       <a href=""><i class="fab fa-instagram"></i></a> 
+                    </div>
+                    <div class="soc-item">
+                      <a href=""><i class="fab fa-linkedin-in"></i></a>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="footer-title text-white">
+                   Recent News
+                </h3>
+                <ul class="list text-white">
+                    <li>About Us</li>
+                    <li>Products</li>
+                    <li>Get in touch</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="footer-title text-white">
+                   Links
+                </h3>
+                <ul class="list text-white">
+                    <li>Download for Apple</li>
+                    <li>Download for Android</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    
+  
+    <script src="Js/app.js"></script>
+  </body>
+</html>

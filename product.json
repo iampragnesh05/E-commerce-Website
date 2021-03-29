@@ -1,0 +1,158 @@
+{
+    "items": [
+        {
+          "id": 1,
+          "category": "shoes",
+          "name": "Men's T-shirt",
+          "image": "Images/women4.png",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+          "available": true,
+          "size": ["34", "36", "40"],
+          "condition": "new",
+          "price": 12.99
+        },
+        {
+            "id": 2,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/women3.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 12.99
+        },
+        {
+            "id": 3,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/women2.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 12.99
+        },
+        {
+            "id": 4,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/women1.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 40.99
+        },
+        {
+            "id": 5,
+          "category": "shoes",
+          "name": "Men's T-shirt",
+          "image": "Images/new1.png",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+          "available": true,
+          "size": ["34", "36", "40"],
+          "condition": "new",
+          "price": 40.99
+        },
+        {
+            "id": 6,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/collection2.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 20.99
+        },
+        {
+            "id": 7,
+          "category": "shoes",
+          "name": "Men's T-shirt",
+          "image": "Images/new3.png",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+          "available": true,
+          "size": ["34", "36", "40"],
+          "condition": "new",
+          "price": 20.99
+        },
+        {
+            "id": 8,
+            "category": "shoes",
+            "name": "Images/collection1.png",
+            "image": "Images/women4.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 29.99
+        },
+        {
+            "id": 9,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/new4.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 120.99
+        },
+        {
+            "id": 10,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/new5.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 32.99
+        },
+        {
+            "id": 11,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/new1.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 62.99
+        },
+        {
+            "id": 12,
+          "category": "shoes",
+          "name": "Men's T-shirt",
+          "image": "Images/women4.png",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+          "available": true,
+          "size": ["34", "36", "40"],
+          "condition": "new",
+          "price": 62.99
+        },
+        {
+            "id": 13,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/women4.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 42.99
+        },
+        {
+            "id": 14,
+            "category": "shoes",
+            "name": "Men's T-shirt",
+            "image": "Images/women2.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam.",
+            "available": true,
+            "size": ["34", "36", "40"],
+            "condition": "new",
+            "price": 12.99
+        }
+      ]
+}
